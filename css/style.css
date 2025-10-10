@@ -25,3 +25,20 @@ th{
     color:white;
     background-color: gray;
 }
+
+#content{
+    width: 80%;
+    margin: auto;
+}
+
+main img{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+}
+
+th,td{
+    padding: 10px;
+}
