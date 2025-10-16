@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <title>MyWorks</title>
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+</head>
+<body>
+    <div id="content">
+        <header id="header">
+            <h1><a href="myworks.html">My Works</a></h1>
+            <nav id="menu">
+                <p><a href="myworks.html#profile">Profile</a></p>
+                <p><a href="myworks.html#topics">Topics</a></p>
+                <p><a href="myworks.html#works">Works</a></p>           
+            </nav>
+        </header>
+        <main>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="../img/mainvisual.png" alt="メインビジュアル"></div>
+                    <div class="swiper-slide"><img src="../img/mainvisual-2.png" alt="メインビジュアル2"></div>
+                    <div class="swiper-slide"><img src="../img/mainvisual-3.png" alt="メインビジュアル3"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <section id="profile">
+                <h2>Profile</h2>
+                <p>name:<strong>石田櫂夢</strong></p>
+                <p>policy:<strong>仕事で妥協はしたくない</strong></p>
+            </section>
+            <h2>Topics</h2>
+            <section id="topics">
+                <table border="2">
+                    <tr>
+                        <th>DATE</th>
+                        <th>CONTENTS</th>
+                    </tr>
+                    <tr>
+                        <td>20XX/XX/XX</td>
+                        <td>Webサイトを開設いたしました!</td>
+                    </tr>
+                    <tr>
+                        <td>20XX/XX/XX</td>
+                        <td>問い合わせフォームを開設いたしました！</td>
+                    </tr>
+                </table>
+            </section>
+            <h2>Works</h2>
+            <section id="works">
+                <div class="works-list">
+                    <div class="works-img">
+                        <img src="../img/mainvisual.png" alt="作品1">
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+    <link >
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="myworks.js"></script>
+</body>
+</html>

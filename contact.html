@@ -58,10 +58,19 @@
             <textarea id="comment" rows="10" cols="30" placeholder="お問い合わせ内容を入力してください" required></textarea>
         </div>
         <div>
-            <input class ="btn btn-outline-dark" type ="reset" value="リセット">
-            <input class ="btn btn-dark" type ="submit" value="送信">
+            <button class ="btn btn-outline-dark" type ="reset" >リセット</button>
+            <button class ="btn btn-dark" type ="button" id="submit">送信</button>
         </div>
         </form>
+
+        <div id="modal">
+        <div id ="modal-content">
+            <p>本当に送信しますか?</p>
+            <p class="btn btn-dark" id="modal-submit">送信する</p>
+            <p class="btn btn-outline-dark" id="modal-close">戻る</p>
+        </div>
+        </div>  
+
     </section>
 	</main>
 	<footer id="footer">
@@ -69,5 +78,6 @@
 		<p><a href = "contact.html" target="_blank">こちら</a>のフォームからお問い合わせください。</p>
 	</footer>
 </div>
+<script src="js/main.js"></script>
 </body>
 </html>

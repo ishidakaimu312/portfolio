@@ -1,0 +1,54 @@
+#header h1
+{
+    text-align: center;
+    font-size: 60px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#menu{
+    display: flex;
+    line-height: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+main img{
+    width: 100%;
+}
+
+#menu a{
+    margin: 20px;
+    color: inherit;
+}
+
+#content{
+    margin: auto;
+    width: 80%;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+table{
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+td,th{
+    font-size: 20px;
+    text-align: center;
+}
+
+.works-list img{
+    max-width: 50%;
+}
