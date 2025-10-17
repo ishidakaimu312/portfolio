@@ -1,4 +1,5 @@
-const swiper = new Swiper('.swiper', {
+//カルーセル
+const mainSwiper = new Swiper('.swiper', {
     // Optional parameters
     loop: true,
 
@@ -13,3 +14,4 @@ const swiper = new Swiper('.swiper', {
         prevEl: '.swiper-button-prev',
     },
 });
+

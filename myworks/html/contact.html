@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <title>MyWorks</title>
+    <link rel="stylesheet"  href="../style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+</head>
+<body>
+    <div id="content">
+        <header id="header">
+            <h1><a href="myworks.html">My Works</a></h1>
+            <nav id="menu">
+                <p><a href="myworks.html#profile">Profile</a></p>
+                <p><a href="myworks.html#topics">Topics</a></p>
+                <p><a href="myworks.html#works">Works</a></p>           
+            </nav>
+        </header>
+        <main>
+            <h2>Form</h2>
+         <section id="contact">
+            <form action="" method="post">
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="例:山田太郎" required>
+                </div>
+                <div>
+                    <label for="mail">E-Mail</label><br>
+                    <input type="email" id="mail" name="mail" placeholder="aaa@aaa.com">
+                </div>
+                <div>
+                    <label for="category">Category</label><br>
+                    <select id="category" name="category" required>
+                        <option value="">お問い合わせ項目を選択</option>
+                        <option value="request">開発のご相談・ご依頼</option>
+                        <option value="bug">バグ・不具合のご報告</option>
+                        <option value="others">その他</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="comment">Comment</label><br>
+                    <textarea id="comment" rows="10" cols="30" placeholder="お問い合わせ内容をご記入ください"></textarea>
+                </div>
+                <div>
+                    <button type="reset">リセット</button>
+                    <button type="submit" id="submit">送信</button>
+                </div>
+            </form>
+
+            <div id="modal">
+                <div id="modal-content">
+                    <p>この内容で送信してよろしいですか?</p>
+                    <p id="modal-submit">送信</p>
+                    <p id="modal-close">戻る</p>
+                </div>
+            </div>
+         </section>
+
+        </main>
+        <section id = "footer">
+            <ul>
+                <li>お問い合わせは<a href="../html/contact.html">こちら</a>から</li>
+                <li class="tel">お電話のお問い合わせは<a href="tel:000-XXX-XXX">こちら</a>から</li>
+            </ul>
+        </section>
+        <script src="../js/contact.js"></script>
+    </div>
+</body>
+</html>

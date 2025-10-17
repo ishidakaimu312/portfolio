@@ -19,7 +19,7 @@ a{
     text-decoration: none;
 }
 
-main img{
+.swiper img{
     width: 100%;
 }
 
@@ -31,6 +31,11 @@ main img{
 #content{
     margin: auto;
     width: 80%;
+}
+
+#profile p{
+
+    font-size: 30px;
 }
 
 h2{
@@ -49,6 +54,44 @@ td,th{
     text-align: center;
 }
 
-.works-list img{
-    max-width: 50%;
+.works-img{
+    display: flex;
 }
+
+.works-img img{
+    max-width: 30%;
+    margin: 10px;
+}
+
+#footer{
+    font-weight: bold;
+}
+
+.tel{
+    display: none;
+}
+
+@media screen and (max-width : 600px) {
+    .tel{
+        display: block;
+    }
+    
+}
+
+#modal{
+    display:none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#modal-content{
+    background-color:  white;
+    margin: 20% auto;
+    padding: 50px;
+    width: 50%;
+}
+
